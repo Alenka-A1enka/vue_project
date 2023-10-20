@@ -1,0 +1,10 @@
+use some_db;
+
+create TABLE CustomInput (
+	id INT PRIMARY KEY,
+	city VARCHAR(50), 
+	department VARCHAR(50),
+	employee VARCHAR(100),
+	brigad VARCHAR(50),
+	[shift] VARCHAR(50),
+)
